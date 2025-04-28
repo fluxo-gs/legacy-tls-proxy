@@ -121,7 +121,7 @@ Caddy connects securely using TLS 1.2/1.3 behind the scenes.
 
 2. Clone or copy this repository:
    ```bash
-   git clone https://github.com/yourusername/legacy-tls-proxy.git
+   git clone https://github.com/fluxo-gs/legacy-tls-proxy.git
    cd legacy-tls-proxy
    ```
 
