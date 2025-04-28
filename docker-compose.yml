@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  legacy-tls-proxy:
+    image: caddy:2.7.6
+    container_name: legacy-tls-proxy
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+    restart: unless-stopped

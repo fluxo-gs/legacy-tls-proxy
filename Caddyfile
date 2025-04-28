@@ -1,0 +1,9 @@
+:8080
+
+handle_path /https/{host}/{path...} {
+    reverse_proxy https://{host}/{path...} {
+        transport http {
+            tls_insecure_skip_verify
+        }
+    }
+}
